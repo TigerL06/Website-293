@@ -18,11 +18,10 @@ body {
 }
 
 header {
-    display: flex;
     align-items: center;
+    /*Code von ChatGPT*/
     justify-content: center;
-    grid-row: 1;
-    grid-column: 1;
+    /*Code von ChatGPT*/
     background-color: #E6F0FF;
     height: 50px;
     padding: 10px;
@@ -30,6 +29,7 @@ header {
 
 html {
     font-family: Arial, Helvetica, sans-serif;
+    /*Code von einem Freund*/
 }
 
 .infobereich {
@@ -73,7 +73,7 @@ h1 {
 
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
     .hauptbereich {
         grid-template-columns: 1fr;
         grid-template-rows: auto auto auto;
@@ -81,21 +81,24 @@ h1 {
     }
 
     .infobereich {
-        grid-row: 3;
+        grid-row: 2;
         grid-column: 1;
-        height: 300px;
+        height: 700px;
     }
 
     .fotobereich {
-        grid-row: 4;
+        grid-row: 3;
         grid-column: 1;
         height: 300px;
+        text-align: center;
+
     }
 
+
     .links {
-        grid-row: 2;
+        grid-row: 1;
         grid-column: 1;
-        height: 100px;
+        height: 200px;
         text-align: center;
     }
 
